@@ -1,0 +1,250 @@
+/* * {
+      overflow: hidden;
+    }
+
+    #navbarMonstera {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 2%;
+
+   
+    }
+
+    #navMid {
+      list-style-type: none;
+      display: flex;
+     
+    }
+
+    h4 {
+      padding: 15px 30px;
+    }
+
+    #navEnd {
+      display: flex;
+      padding: 15px 25px;
+      font-size: large;
+      justify-content: space-between;
+    }
+
+    #navEnd img {
+      padding: 15px 25px;
+
+    }
+
+    #monstera {
+      width: 337px;
+      margin-left: 5px;
+      margin-top: 87px;
+      font-size: 80px;
+    }
+
+    #midWholePart11 ul li {
+      width: 382px;
+      margin-left: 2px;
+      margin-bottom: 4px;
+    }
+
+    #midWholePart121 h1 {
+      box-sizing: border-box;
+      border-radius: 87px;
+      padding: 8px;
+      margin-left: 38px;
+      width: 215px;
+      background-color: rgb(70, 109, 80);
+      text-align: center;
+      margin-top: 37px;
+    }
+
+    #midWholePart12 {
+      display: flex;
+      padding: 15px 25px;
+    }
+
+    /* Write styles here */
+    /* #midWholePart12 img {
+      display: inline-block;
+    }
+
+    #imgMain {
+
+      position: relative;
+      width: 556px;
+      height: 668px;
+      bottom: 1092px;
+      left: 954px;
+    }
+
+    /* ----bottom---- */
+    /* #midWholePart13 {
+      display: flex;
+      margin-left: 64px;
+    }
+
+    .midWholePart13Parts {
+      display: flex;
+    }
+
+    .midWholePart13Parts h4 {
+      font-size: 30px;
+      padding: 7px;
+      margin-top: 1px;
+    }
+
+    .text {
+      width: 55%;
+      margin-top: -49px;
+    }  */
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+  
+      body {
+        font-family: 'Allerta', sans-serif;
+        height: 100vh;
+      }
+  
+  
+      /* NavBar */
+  
+      #navbarMonstera {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 8rem;
+        width: 80vw;
+        margin: auto;
+      }
+  
+      #navFirst img {
+        width: 7rem;
+      }
+  
+      #navMid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      #navMid div {
+        margin-right: 5rem;
+      }
+  
+      #navMid div:first-child {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000;
+      }
+  
+      #navEnd {
+        display: flex;
+      }
+  
+      #navEnd div {
+        margin-right: 2rem;
+      }
+  
+      /* Hero Section */
+  
+      #midWhole {
+        width: 80vw;
+        margin: auto;
+      }
+  
+      #midWholePart1 {
+        width: 50vw;
+        line-height: 1.3;
+        margin-top: 7rem;
+      }
+  
+      #midWholePart11 {
+        margin-bottom: 1.5rem;
+      }
+  
+      #midWholePart11 div ul li:first-child {
+        font-size: 2.5rem;
+        margin-bottom: -1rem;
+        font-weight: 900;
+      }
+  
+      #midWholePart11 div ul li:nth-child(3),
+      #midWholePart11 div ul li:nth-child(4) {
+        font-size: 1rem;
+      }
+  
+      #imgMain {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 40rem;
+      }
+  
+      #midWholePart121 {
+        font-size: .8rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        color: #fff;
+  
+      }
+  
+      #midWholePart121 div {
+        margin-right: .5rem;
+  
+      }
+  
+      #midWholePart122 img {
+        height: 21px;
+        margin-left: -63px;
+        margin-top: 6px;
+      }
+  
+      #midWholePart122 {
+        position: absolute;
+        right: 33rem;
+        bottom: .3rm;
+      }
+  
+      #midWholePart121 div h1 {
+        background-color: #466d4f;
+        padding: .7rem 2rem;
+        border-radius: 30px;
+      }
+  
+      #midWholePart13 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 4rem;
+      }
+  
+      .midWholePart13Parts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 1rem;
+      }
+  
+      #feeding {
+        height: 60px;
+        margin-right: 16px;
+      }
+  
+      #light {
+        height: 60px;
+        margin-right: 16px;
+      }
+  
+      #care {
+        height: 60px;
+        margin-right: 16px;
+      }
+  
+      .text {
+        font-size: 12px;
+  
+      }
+    
